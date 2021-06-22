@@ -15,9 +15,7 @@ function createElement(type, config, children) {
     props
   }
 }
-const React = {
+export default {
   createElement,
   Component
 }
-
-export default React;

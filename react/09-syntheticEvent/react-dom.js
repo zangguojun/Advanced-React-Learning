@@ -88,4 +88,6 @@ function updateClassComponent(virtualDOM) {
   console.log("🚀 ~ file: react-dom.js ~ line 84 ~ updateClassComponent ~ renderVirtualDOM", renderVirtualDOM)
   return createDOM(renderVirtualDOM);
 }
-export default render;
+export default {
+  render
+};
