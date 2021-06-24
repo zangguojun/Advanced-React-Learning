@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom'
 const ForwardTextInput = React.forwardRef((props, ref) => <input ref={ref} />)
 
 class Form extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.formInput = React.createRef();
   }
 

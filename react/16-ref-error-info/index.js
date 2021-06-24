@@ -6,8 +6,8 @@ function TextInput(props) {
 }
 
 class Form extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.formInput = React.createRef();
   }
 

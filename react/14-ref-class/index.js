@@ -2,8 +2,8 @@ import React from './react'
 import ReactDOM from './react-dom'
 
 class Form extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.formInput = React.createRef();
   }
   getFocus = () => {
