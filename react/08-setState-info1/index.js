@@ -45,7 +45,6 @@ class Counter extends React.Component {
     })
   }
   handleDbAddFunc = () => {
-    // 如果逆向依赖上一个状态计算下一个状态的话，需要给setState传递函数
     this.setState(preState => ({
       number: preState.number + 1
     }))
